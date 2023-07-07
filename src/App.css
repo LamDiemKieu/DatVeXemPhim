@@ -1,0 +1,328 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+.content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+#datVe .hang {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+#datVe .hangTitle {
+  height: 30px;
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+#datVe .hangTitle .hangTitleItem {
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+  margin-right: 5px;
+}
+#datVe .hangTitle .soGhe {
+  height: 30px;
+  width: 30px;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 30px;
+  background-color: teal;
+  color: white;
+  margin: 0 5px;
+}
+#datVe .hang .soGheDaChon {
+  background-color: yellow;
+  border-radius: 5px;
+  color: white;
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 12px;
+}
+#datVe .hang .soGheDaDat {
+  background-color: chocolate;
+  border-radius: 5px;
+  color: white;
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 12px;
+}
+
+#datVe .hang .hangItem {
+  height: 30px;
+  width: 30px;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: teal;
+  color: white;
+  text-align: center;
+  line-height: 30px;
+  margin-right: 5px;
+}
+#datVe .hang button {
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+  border: 1px solid teal;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+#datVe .hang button:hover {
+  background-color: green;
+  border: 1px solid green;
+
+  color: white;
+}
+#manHinh {
+  height: 30px;
+  line-height: 30px;
+  width: 100%;
+  background-color: lightblue;
+  font-size: 16px;
+  font-weight: 600;
+  color: chocolate;
+  text-align: center;
+  margin: 20px auto;
+  border-radius: 50%;
+}
+table#myTable {
+  border-collapse: collapse;
+  width: 400px;
+  margin: 20px auto 0;
+  font-size: 12px;
+}
+#myTable thead tr th {
+  background-color: teal;
+  color: white;
+  height: 35px;
+  font-size: 18px;
+}
+
+#myTable tbody tr td {
+  border-bottom: 1px solid silver;
+  height: 30px;
+}
+#myTable tbody tr td:first-child {
+  text-align: center;
+  font-size: 16px;
+}
+#myTable tbody tr td:nth-child(2) {
+  text-align: right;
+  font-size: 16px;
+  padding: 10px 0;
+}
+#myTable tbody tr td:last-child {
+  text-align: center;
+}
+#myTable tbody tr:nth-child(even) {
+  background-color: rgb(237, 237, 237);
+}
+#myTable tfoot tr th {
+  background-color: teal;
+  color: white;
+  height: 40px;
+  font-size: 16px;
+}
+#myTable tfoot tr th:nth-child(2) {
+  text-align: right;
+}
+#myTable .huyGhe {
+  background-color: chocolate;
+  width: 25px;
+  height: 25px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+#myTable .huyGhe:hover {
+  opacity: 0.7;
+}
+
+#myList {
+  width: 600px;
+  max-height: 650px;
+  overflow-y: auto;
+}
+#myList .gioHang {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 400px;
+  height: 80px;
+  margin: 0 auto;
+}
+#myList .gioHang .gioHangContent {
+  color: teal;
+  font-size: 60px;
+  position: relative;
+}
+#myList .gioHang .soLuong {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  transform: translate(-50%, -50%);
+}
+#xacNhan {
+  margin: 0 auto;
+  text-align: center;
+}
+.fa-user,
+.fa-phone {
+  color: teal;
+}
+#xacNhan button {
+  margin-top: 10px;
+  background-color: chocolate;
+  color: white;
+  border: none;
+  width: 180px;
+  height: 35px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+#xacNhan button:hover {
+  background-color: teal;
+}
+
+#xacNhanContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+#formInput {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid silver;
+}
+#formInput input {
+  height: 30px;
+  width: 300px;
+  margin: 5px 0 0 5px;
+  padding: 5px;
+  border: none;
+  outline: none;
+}
+
+#huyTatCa button {
+  border: 1px solid teal;
+  color: teal;
+  background-color: transparent;
+  cursor: pointer;
+  height: 34px;
+  padding: 0 20px;
+  font-weight: 600;
+  transition: all 0.5s;
+}
+#huyTatCa button:hover {
+  background-color: chocolate;
+  color: white;
+  border: none;
+}
+
+#ghiChu {
+  margin: 20px 0;
+  text-align: right;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+#ghiChu span {
+  margin: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+#ghiChu .gheTrong::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border: 1px solid teal;
+  display: inline-block;
+  margin-right: 10px;
+  border-radius: 4px;
+}
+#ghiChu .daChon::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-color: seagreen;
+
+  display: inline-block;
+  margin-right: 10px;
+  border-radius: 4px;
+}
+#ghiChu .daDat::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-color: chocolate;
+  display: inline-block;
+  margin-right: 10px;
+  border-radius: 4px;
+}
+
+#khachDatVe {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+}
+#khachDatVe h3 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+#khachDatVe p {
+  color: teal;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+#khachDatVe table {
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+#khachDatVe table tr th {
+  background-color: teal;
+  color: white;
+  padding: 8px 0;
+}
+#khachDatVe table tr th:last-child {
+  text-align: right;
+  padding-right: 20px;
+}
+#khachDatVe table tr td {
+  padding: 10px 0;
+}
+#khachDatVe table tr td:last-child {
+  text-align: right;
+  padding-right: 20px;
+}
